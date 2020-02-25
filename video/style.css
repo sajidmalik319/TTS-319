@@ -1,0 +1,98 @@
+header{
+    background-image: url(kam.png);
+    height: 100vh;
+    background-size:  cover;
+    background-position: center; 
+    background-origin: border-box;
+}
+
+.container{
+    /* width: 1200px; */
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.container .box{
+    position: relative;
+    background: rgb(61, 51, 51);
+    padding: 20px 40px 40px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.container .box:nth-child(1){
+    background: transparent;
+}
+
+.container .box:nth-child(2){
+    background: transparent;
+}
+.container .box:nth-child(3){
+    background: transparent;
+}
+.container .box:nth-child(4){
+    background: transparent;
+}
+
+.container .box h2{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 100px;
+    color:rgb(235, 224, 224);
+    z-index: 1;
+    opacity: 0.4;
+}
+
+.container .box h3{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.container .box h4{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.container .box p{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 18px;
+}
+
+footer{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(245, 245, 245);
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url(City-buildings-skyscrapers-lighting-up-the-night-road-bridge-traffic-sky-clouds-HD-3840x2160-wallpaper-915x515.jpg);
+}
+
+.contact-section h1{
+        
+    text-align: center;
+    color: white;
+    font-size: 70px;
+}
+.border{
+    width: 500px;
+    height: 10px;
+    margin: 40px auto;
+}

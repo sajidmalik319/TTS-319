@@ -1,0 +1,333 @@
+body{
+    max-width: 960%;
+}
+
+*{
+    margin: 10x;
+    padding: 0x;
+    font-family: Century Gothic;
+}
+
+header{
+    background-image:url(gif.gif);
+    height: 100vh;
+    background-size:  cover;
+    background-blend-mode: color;
+    background-repeat: no-repeat, repeat;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+     color: #000;
+}
+
+ul li .baby a{
+    background-color: #fff;
+    color: #000;
+}
+
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+    position: fixed;
+    left: 750px;
+    display: flex;
+    align-items: center;
+
+}
+.title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate( -50%,-50%);
+    display: inline;
+}
+
+.title h1{
+    top: 20px;
+    color: #fff;
+    font-size: 350%;
+    display: inline;
+    font-family: serif;
+}
+
+
+.button{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-505,-50%);
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+main{
+    background-image: url(img2.jpg);
+    height: 100vh;
+    background-size:  cover;
+    background-position: center; 
+    background-origin: border-box;
+}
+
+main{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+.lolo {
+    position: absolute;
+    top: 115%;
+    left: 50%;
+    transform: translate( -50%,-50%);
+    
+} 
+
+.lolo h1{
+    color:#fff;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container .box{
+    position: relative;
+    width: 350px;
+    padding: 40px;
+    background-color: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+    border-radius: 4px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+}
+
+  
+.container .box .icon{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    color: seashell;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  0 auto;
+    border-radius: 50%;
+    font-size: 40px;
+    font-weight: 700;
+    transition: 1s;
+}
+
+.container .box:nth-child(1) .icon {
+    
+    background-color: rgba(39, 169, 209, 0.678);
+}
+
+.container .box:nth-child(1):hover .icon{
+    box-shadow: 0 0 0 400px rgba(0, 134, 243, 0.438);
+
+
+}
+/* 
+.containe .box:nth-child(2) .icon {
+    box-shadow:0 0 0 0 blue;
+    background-color:blue;
+
+}
+
+.containe .box:nth-child(2):hover .icon{
+    box-shadow: 0 0 0 400px blue ;
+}
+
+.contain .box:nth-child(3) .icon {
+    box-shadow:0 0 0 0 yellow;
+    background-color: yellow;
+}
+
+.contain .box:nth-child(3):hover .icon{
+ box-shadow: 0 0 0 400px yellow;
+} */
+
+.container .box .content{
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.container .box:hover .content{
+    color: #fff;
+}
+
+footer{
+    background-image: url(img12.jpg);
+    height: 100vh;
+    background-size:  cover;
+    background-position: center; 
+    background-origin: border-box;}
+
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: "montserrat", sans-serif;
+    }
+
+
+    .contact-section h1{
+        
+        text-align: center;
+        color: white;
+        font-size: 70px;
+    }
+
+    .border{
+        width: 500px;
+        height: 10px;
+        margin: 40px auto;
+    }
+
+    .contact-form{
+        max-width: 600px;
+        margin: auto;
+        padding: 0 10px;
+        overflow: hidden;
+        color: white;
+    }
+
+    .contact-form-text{
+    
+        display: block;
+        width: 600px;
+        box-sizing: border-box;
+        margin: 36px 0;
+        border: 0;
+        background: rgba(184, 59, 28, 0.829);
+        background-color: transparent;
+        padding: 20px 40px;
+        outline: none;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.466);
+        transition: 0.5s;
+        color: white;
+    }
+
+    .contact-form-text:hover{
+        box-shadow: 0 0 10px 4px #db72a68e;
+    }
+
+    textarea.contact-form-text{
+        resize: none;
+        height: 120px;
+    }
+
+    .contact-form-btn{
+        float: right;
+        border: 0;
+        background: #3b85cf00;
+        padding: 12px 50px;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: 0.5s;
+        color: white;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.466);
+        
+    }
+
+    .contact-form-btn:hover{
+        background: #e76aa9bb;
+    }
+
+    /* .loru{
+        background-color: gray;
+        height: auto;
+        background-position: center;
+        background-origin: border-box;
+    } */
+
+    section{
+        background-image: url(group.jpg);
+        height: 100vh;
+        background-size:  cover;
+        background-position: center; 
+        background-origin: border-box;
+    }
+
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: "montserrat", sans-serif;
+    }
+
+    section{
+        background-image: url(group.jpg);
+        height: 100vh;
+        background-size:  cover;
+        background-position: center; 
+        background-origin: border-box;}
+    
+    
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: "montserrat", sans-serif;
+        }
+    
+    
+        .aboutus-section h1{
+            text-align: center;
+            color: white;
+            font-size: 70px;
+        }
+    
+        .border{
+            width: 500px;
+            height: 10px;
+            margin: 40px auto;
+        }
+
+        .yo h3{
+            color: white;
+        }
+    
+
+    
+    
+
